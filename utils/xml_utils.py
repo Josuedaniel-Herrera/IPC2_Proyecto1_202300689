@@ -62,10 +62,20 @@ def cargar_experimentos_desde_xml(ruta):
                     raise ValueError(f"Pareja inválida en '{nombre}': {pareja_xml.text}")
                 parejas.append((Proteina(partes[0]), Proteina(partes[1])))
 
+            # Obtener límite
+            limite_xml = exp_xml.find('limite')
+            limite = None
+            if limite_xml is not None and limite_xml.text is not None:
+                try:
+                    limite = int(limite_xml.text.strip())
+                except ValueError:
+                    raise ValueError(f"Valor inválido para límite en experimento '{nombre}'.")
+
             # Crear experimento
             experimento = Experimento(nombre)
             experimento.tejido = tejido
             experimento.parejas = parejas
+            experimento.limite = limite
             experimentos.append(experimento)
 
         return experimentos

@@ -14,5 +14,8 @@
             <pareja>LAV VAL</pareja>
             <pareja>VAR RAV</pareja>
         </proteinas>
+	<limite>
+		2
+	</limite>
     </experimento>
 </experimentos>

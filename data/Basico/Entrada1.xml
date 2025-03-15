@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experimentos>
+    <experimento nombre="paciente01">
+        <tejido filas="5" columnas="5">
+            <rejilla>
+                LAV LAV VAL VAL VAL
+                VAR RAV GHI VAL VAL
+                LAV AVL ALV LAV LAV
+                VAL ILL KEQ DCC LAV
+                VAR ILL KQA CDC LAV
+            </rejilla>
+        </tejido>
+        <proteinas>
+            <pareja>
+                LAV VAL
+            </pareja>
+            <pareja>
+                VAR ILL
+            </pareja>
+        </proteinas>
+    </experimento>
+    <experimento nombre="paciente02">
+        <tejido filas="5" columnas="5">
+            <rejilla>
+                ILL LAV VAL ILL RAV
+                RAV ILL RAV VAL VAL
+                LAV AVL ALV LAV LAV
+                VAL ILL RAV DCC ILL
+                RAV ILL KQA CDC RAV
+            </rejilla>
+        </tejido>
+        <proteinas>
+            <pareja>
+                ILL RAV
+            </pareja>
+            <pareja>
+                KQA CDC
+            </pareja>
+        </proteinas>
+    </experimento>
+    <experimento nombre="paciente03">
+        <tejido filas="10" columnas="10">
+            <rejilla>
+                ARA DCE DCE RVP LAM VNR DCE DCE HRP IDA
+                DCE DCE DCE GLM CTS KER DCE DCE DCE MLE
+                DCE DCE DCE DCE LVA DCE DCE DCE DCE ILE
+                VWS VWS VWS VWS DCE DCE VWS VWS VWS MIA
+                VWS VWS VWS VWS DCE VWS VWS VWS VWS LME
+                ARG VWS VWS VWS VWS VWS VWS VWS NRH LEM
+                VTA CDR VWS DCE DCE VWS DCE THR LEA MIL
+                ARA CRP TGD DCE DCE VWS FGE WTI VQA DRM
+                VLA DCA TRG QRP VWS VLE FRA WVT HRM LAG
+                ARG CTA VGL TRP LQI MRA FAD WNR TVE HML
+            </rejilla>
+        </tejido>
+        <proteinas>
+            <pareja>
+                DCE VWS
+            </pareja>
+        </proteinas>
+    </experimento>
+</experimentos>
